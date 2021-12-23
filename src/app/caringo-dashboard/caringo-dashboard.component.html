@@ -1,0 +1,14 @@
+<div class="row align-end">
+    <div class="column">
+        <label>Tenant</label>
+        <select #tenantSelect (change)="onTenantChange(tenantSelect.value)">
+            <option *ngFor=" let tenant of tenantNames" value="{{tenant}}">{{tenant}}</option>
+        </select>
+    </div>
+    <div class="domain">
+        <label>Domain</label>
+        <select>
+            <option *ngFor="let domain of domainNames" value="{{domain}}">{{domain}}</option>
+        </select>
+    </div>
+</div>

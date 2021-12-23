@@ -1,1 +1,54 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+.container {
+  background-color: #3c3c3c;
+  box-shadow: 0 0 5px black;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.mat-tab-labels {
+  justify-content: space-around;
+}
+
+.mat-tab-labels > * {
+  width: 100%;
+}
+
+.tab-content {
+  margin: 10px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  padding: 0 10px;
+}
+
+.column {
+  margin: 0 20px;
+  padding: 0 10px;
+}
+
+.align-end {
+  justify-content: flex-end;
+}
+
+label {
+  margin: 0 10px;
+}
